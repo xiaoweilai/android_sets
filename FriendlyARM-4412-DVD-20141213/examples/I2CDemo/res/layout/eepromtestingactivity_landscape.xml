@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:gravity="center_horizontal">
+	
+	<LinearLayout 
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="140dip" android:gravity="center_horizontal">
+
+		<LinearLayout 
+			android:orientation="vertical" android:layout_width="240dip"
+			android:layout_height="fill_parent" android:gravity="center_horizontal">
+
+			<Button android:id="@+id/writeEEPROMButton"
+				android:layout_width="fill_parent" android:layout_height="40dip"
+				android:text="@string/writeEEPROMButtonText_short"  android:textSize="14px">
+			</Button>
+
+			<EditText android:id="@+id/writeEditor"
+				android:layout_width="fill_parent" android:layout_height="100dip"
+				android:singleLine="false" android:editable="true" android:gravity="top"
+				android:textSize="14px" />
+
+		</LinearLayout>
+
+
+		<LinearLayout 
+			android:orientation="vertical" android:layout_width="240dip"
+			android:layout_height="fill_parent" android:gravity="center_horizontal">
+
+			<Button android:id="@+id/readEEPROMButton"
+				android:layout_width="fill_parent" android:layout_height="40dip"
+				android:text="@string/readEEPROMButtonText">
+			</Button>
+
+			<EditText android:id="@+id/readEditor" android:layout_width="fill_parent"
+				android:layout_height="100dip" android:singleLine="false"
+				android:editable="true" android:gravity="top" 
+				android:textSize="14px" />
+
+		</LinearLayout>
+	</LinearLayout>
+
+	<TextView android:id="@+id/statusView" android:layout_width="fill_parent"
+		android:layout_height="16dip" android:textSize="12px" android:gravity="center"/>
+	
+</LinearLayout>

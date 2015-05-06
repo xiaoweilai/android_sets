@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+	<TextView android:id="@+id/textViewTempLabel" android:layout_width="fill_parent"
+		android:layout_height="40dip" android:gravity="top" 
+		android:text="@string/tempLabel"/>
+	
+	<TextView android:id="@+id/textViewTempValue" android:layout_width="fill_parent"
+		android:layout_height="40dip" android:gravity="top" 
+		android:text="@string/tempInitValue"/>
+
+	<Button android:layout_height="wrap_content" android:text="@string/btnStartWatchDogText"
+	    android:layout_width="fill_parent" android:id="@+id/btnStartWatchDog"></Button>
+	
+	<Button android:layout_height="wrap_content" android:text="@string/btnFeedWatchDogText"
+	    android:layout_width="fill_parent" android:id="@+id/btnFeedWatchDog"></Button>
+	
+</LinearLayout>
+

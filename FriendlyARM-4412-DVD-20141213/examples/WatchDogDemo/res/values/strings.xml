@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WatchDog Demo</string>
+    <string name="WatchDogDemoActivityTitle">WatchDog Demo</string>
+    <string name="btnFeedWatchDogText">Feed WatchDog</string>
+    <string name="btnStartWatchDogText">Start WatchDog</string>
+    <string name="tempLabel">Second:</string>
+	<string name="tempInitValue">0</string>
+</resources>

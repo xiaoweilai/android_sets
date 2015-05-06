@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EEPROM Demo</string>
+    <string name="EEPROMTestingTitle">IIC/EEPROM Testing: /dev/i2c-0</string>
+    <string name="writeEEPROMButtonText">Write</string>
+    <string name="writeEEPROMButtonText_short">Write</string>
+    <string name="readEEPROMButtonText">Read</string>
+</resources>
