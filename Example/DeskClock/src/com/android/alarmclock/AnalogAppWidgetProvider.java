@@ -16,23 +16,25 @@
 
 package com.android.alarmclock;
 
+import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.widget.RemoteViews;
-
 import com.android.superdeskclock.AlarmClock;
 import com.android.superdeskclock.R;
 
 /**
  * Simple widget to show analog clock.
  */
+@SuppressLint("NewApi")
 public class AnalogAppWidgetProvider extends BroadcastReceiver {
     static final String TAG = "AnalogAppWidgetProvider";
 
-    public void onReceive(Context context, Intent intent) {
+    @SuppressLint("NewApi")
+	public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
 
         if (AppWidgetManager.ACTION_APPWIDGET_UPDATE.equals(action)) {
